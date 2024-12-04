@@ -1,0 +1,28 @@
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+            <center>
+            <!--Video Player Start-->
+              <div id="player-container"></div>
+            <script>
+              // Initialize JW Player
+              var player = jwplayer("player-container");
+
+              // Setup JW Player configuration
+              player.setup({
+              "file": "https://fifabd.xyz/OPLLX/play.m3u8?id=383530",
+              "width": "100%",
+              "height": "100%",
+              stretching: "",
+              "type": "hls",
+              "autostart": "true",
+              "mute": "false",
+              "primary": "html5",
+              "logo": {
+                   "file": "https://i.ibb.co/WxsnzM6/20241201-155940.png",
+                   "hide": "false",
+                   "position": "top-right" }
+                          
+                });
+            </script>
+           </center>
